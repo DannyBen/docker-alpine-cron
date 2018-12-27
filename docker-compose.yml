@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  cron:
+    build: .
+    image: dannyben/alpine-cron
+    volumes: 
+    - ./app:/app
